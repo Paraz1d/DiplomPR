@@ -1,0 +1,89 @@
+<UserControl x:Class="AdminTaskSystem.Views.TicketDetailView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:infra="clr-namespace:AdminTaskSystem.Infrastructure"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             Width="860" Height="620"
+             infra:EventCommandBehavior.LoadedCommand="{Binding LoadCommand}">
+    <Grid Margin="24">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <TextBlock Text="{Binding Title}" FontSize="22" FontWeight="SemiBold" Margin="0,0,0,16" />
+
+        <TabControl Grid.Row="1">
+            <TabItem Header="Данные">
+                <ScrollViewer VerticalScrollBarVisibility="Auto">
+                    <Grid Margin="0,16,8,0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+
+                        <TextBox Grid.ColumnSpan="2" materialDesign:HintAssist.Hint="Тема *"
+                                 Text="{Binding Ticket.Title, UpdateSourceTrigger=PropertyChanged}"
+                                 IsReadOnly="{Binding CanEditFields, Converter={StaticResource InverseBooleanConverter}, Mode=OneWay}"
+                                 Style="{StaticResource MaterialDesignOutlinedTextBox}" Margin="0,0,0,12" />
+                        <TextBox Grid.Row="1" Grid.ColumnSpan="2" materialDesign:HintAssist.Hint="Описание *"
+                                 Text="{Binding Ticket.Description, UpdateSourceTrigger=PropertyChanged}" MinLines="4" AcceptsReturn="True"
+                                 IsReadOnly="{Binding CanEditFields, Converter={StaticResource InverseBooleanConverter}}"
+                                 Style="{StaticResource MaterialDesignOutlinedTextBox}" Margin="0,0,0,12" />
+                        <ComboBox Grid.Row="2" ItemsSource="{Binding Categories}" SelectedValue="{Binding Ticket.CategoryId}" SelectedValuePath="Id" DisplayMemberPath="Name"
+                                  materialDesign:HintAssist.Hint="Категория *" IsEnabled="{Binding CanEditFields}"
+                                  Style="{StaticResource MaterialDesignOutlinedComboBox}" Margin="0,0,8,12" />
+                        <TextBox Grid.Row="2" Grid.Column="1" materialDesign:HintAssist.Hint="Заявитель *"
+                                 Text="{Binding Ticket.ApplicantName, UpdateSourceTrigger=PropertyChanged}" IsReadOnly="{Binding CanEditFields, Converter={StaticResource InverseBooleanConverter}}"
+                                 Style="{StaticResource MaterialDesignOutlinedTextBox}" Margin="8,0,0,12" />
+                        <TextBox Grid.Row="3" materialDesign:HintAssist.Hint="Контакт"
+                                 Text="{Binding Ticket.ApplicantContact, UpdateSourceTrigger=PropertyChanged}" IsReadOnly="{Binding CanEditFields, Converter={StaticResource InverseBooleanConverter}}"
+                                 Style="{StaticResource MaterialDesignOutlinedTextBox}" Margin="0,0,8,12" />
+                        <TextBox Grid.Row="3" Grid.Column="1" materialDesign:HintAssist.Hint="Адрес"
+                                 Text="{Binding Ticket.ApplicantAddress, UpdateSourceTrigger=PropertyChanged}" IsReadOnly="{Binding CanEditFields, Converter={StaticResource InverseBooleanConverter}}"
+                                 Style="{StaticResource MaterialDesignOutlinedTextBox}" Margin="8,0,0,12" />
+                        <ComboBox Grid.Row="4" ItemsSource="{Binding Departments}" SelectedValue="{Binding Ticket.AssignedDepartmentId}" SelectedValuePath="Id" DisplayMemberPath="Name"
+                                  materialDesign:HintAssist.Hint="Отдел" IsEnabled="{Binding CanEditFields}"
+                                  Style="{StaticResource MaterialDesignOutlinedComboBox}" Margin="0,0,8,12" />
+                        <ComboBox Grid.Row="4" Grid.Column="1" ItemsSource="{Binding FilteredEmployees}" SelectedValue="{Binding Ticket.AssignedEmployeeId}" SelectedValuePath="Id" DisplayMemberPath="FullName"
+                                  materialDesign:HintAssist.Hint="Исполнитель" IsEnabled="{Binding CanEditFields}"
+                                  Style="{StaticResource MaterialDesignOutlinedComboBox}" Margin="8,0,0,12" />
+                        <DatePicker Grid.Row="5" SelectedDate="{Binding Ticket.Deadline}" materialDesign:HintAssist.Hint="Дедлайн"
+                                    IsEnabled="{Binding CanEditFields}" Style="{StaticResource MaterialDesignOutlinedDatePicker}" Margin="0,0,8,0" />
+                        <ComboBox Grid.Row="5" Grid.Column="1" ItemsSource="{Binding Statuses}" SelectedItem="{Binding Ticket.Status}"
+                                  materialDesign:HintAssist.Hint="Статус" Style="{StaticResource MaterialDesignOutlinedComboBox}" Margin="8,0,0,0"
+                                  IsEnabled="True" />
+                    </Grid>
+                </ScrollViewer>
+            </TabItem>
+            <TabItem Header="История">
+                <DataGrid ItemsSource="{Binding History}" AutoGenerateColumns="False" IsReadOnly="True" CanUserAddRows="False" Margin="0,16,0,0">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="Дата" Binding="{Binding ChangedAt, StringFormat={}{0:dd.MM.yyyy HH:mm}}" Width="160" />
+                        <DataGridTextColumn Header="Автор" Binding="{Binding AuthorName}" Width="*" />
+                        <DataGridTextColumn Header="Было" Binding="{Binding OldStatus}" Width="130" />
+                        <DataGridTextColumn Header="Стало" Binding="{Binding NewStatus}" Width="130" />
+                        <DataGridTextColumn Header="Комментарий" Binding="{Binding Comment}" Width="2*" />
+                    </DataGrid.Columns>
+                </DataGrid>
+            </TabItem>
+        </TabControl>
+
+        <DockPanel Grid.Row="2" Margin="0,16,0,0">
+            <materialDesign:Snackbar MessageQueue="{Binding Messages}" />
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" DockPanel.Dock="Right">
+                <Button Content="Отмена" Command="{Binding CancelCommand}" Style="{StaticResource MaterialDesignOutlinedButton}" Margin="0,0,8,0" />
+                <Button Content="Сохранить" Command="{Binding SaveCommand}" Style="{StaticResource MaterialDesignRaisedButton}" />
+            </StackPanel>
+        </DockPanel>
+    </Grid>
+</UserControl>

@@ -1,0 +1,76 @@
+<UserControl x:Class="AdminTaskSystem.Views.TicketsView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:infra="clr-namespace:AdminTaskSystem.Infrastructure"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             infra:EventCommandBehavior.LoadedCommand="{Binding LoadCommand}">
+    <Grid Margin="24">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <DockPanel Margin="0,0,0,16">
+            <TextBlock Text="Заявки" FontSize="28" FontWeight="SemiBold" VerticalAlignment="Center" />
+            <StackPanel DockPanel.Dock="Right" Orientation="Horizontal" HorizontalAlignment="Right">
+                <TextBox Width="280" materialDesign:HintAssist.Hint="Поиск по теме или заявителю"
+                         Text="{Binding SearchText, UpdateSourceTrigger=PropertyChanged}"
+                         Style="{StaticResource MaterialDesignOutlinedTextBox}" Margin="0,0,12,0" />
+                <ComboBox Width="170" ItemsSource="{Binding Statuses}" SelectedItem="{Binding SelectedStatus}"
+                          Style="{StaticResource MaterialDesignOutlinedComboBox}" Margin="0,0,12,0" />
+                <ComboBox Width="220" ItemsSource="{Binding Departments}" SelectedItem="{Binding SelectedDepartment}"
+                          DisplayMemberPath="Name" materialDesign:HintAssist.Hint="Все отделы"
+                          Style="{StaticResource MaterialDesignOutlinedComboBox}" />
+            </StackPanel>
+        </DockPanel>
+
+        <Grid Grid.Row="1">
+            <DataGrid ItemsSource="{Binding Tickets}" AutoGenerateColumns="False" IsReadOnly="True"
+                      CanUserAddRows="False" SelectionMode="Single"
+                      infra:EventCommandBehavior.RowDoubleClickCommand="{Binding OpenTicketCommand}">
+                <DataGrid.RowStyle>
+                    <Style TargetType="DataGridRow">
+                        <Setter Property="Background" Value="{Binding DeadlineFlag, Converter={StaticResource DeadlineFlagBrushConverter}}" />
+                    </Style>
+                </DataGrid.RowStyle>
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="№" Binding="{Binding Id}" Width="70" />
+                    <DataGridTextColumn Header="Тема" Binding="{Binding Title}" Width="2*" />
+                    <DataGridTextColumn Header="Категория" Binding="{Binding CategoryName}" Width="*" />
+                    <DataGridTextColumn Header="Заявитель" Binding="{Binding ApplicantName}" Width="*" />
+                    <DataGridTextColumn Header="Отдел" Binding="{Binding DepartmentName}" Width="*" />
+                    <DataGridTextColumn Header="Исполнитель" Binding="{Binding AssignedEmployeeName}" Width="*" />
+                    <DataGridTemplateColumn Header="Статус" Width="140">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <materialDesign:Chip Content="{Binding Status, Converter={StaticResource StatusCaptionConverter}}"
+                                                     Background="{Binding Status, Converter={StaticResource StatusBrushConverter}}"
+                                                     Foreground="White" />
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                    <DataGridTextColumn Header="Дедлайн" Binding="{Binding Deadline, StringFormat={}{0:dd.MM.yyyy}}" Width="120" />
+                    <DataGridTextColumn Header="Создана" Binding="{Binding CreatedAt, StringFormat={}{0:dd.MM.yyyy}}" Width="120" />
+                    <DataGridTemplateColumn Header="" Width="70">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <Button Command="{Binding DataContext.DeleteTicketCommand, RelativeSource={RelativeSource AncestorType=DataGrid}}"
+                                        CommandParameter="{Binding}" Style="{StaticResource MaterialDesignToolButton}"
+                                        Visibility="{Binding DataContext.IsAdmin, RelativeSource={RelativeSource AncestorType=DataGrid}, Converter={StaticResource BoolToVisibilityConverter}}">
+                                    <materialDesign:PackIcon Kind="Delete" />
+                                </Button>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                </DataGrid.Columns>
+            </DataGrid>
+
+            <Button Width="56" Height="56" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,20,20"
+                    Command="{Binding NewTicketCommand}" Style="{StaticResource MaterialDesignFloatingActionButton}"
+                    Visibility="{Binding IsAdmin, Converter={StaticResource BoolToVisibilityConverter}}">
+                <materialDesign:PackIcon Kind="Plus" Width="28" Height="28" />
+            </Button>
+            <materialDesign:Snackbar MessageQueue="{Binding Messages}" VerticalAlignment="Bottom" />
+        </Grid>
+    </Grid>
+</UserControl>

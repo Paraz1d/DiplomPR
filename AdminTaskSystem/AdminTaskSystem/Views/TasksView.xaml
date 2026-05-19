@@ -1,0 +1,40 @@
+<UserControl x:Class="AdminTaskSystem.Views.TasksView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:infra="clr-namespace:AdminTaskSystem.Infrastructure"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             infra:EventCommandBehavior.LoadedCommand="{Binding LoadCommand}">
+    <Grid Margin="24">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <TextBlock Text="Мои задачи" FontSize="28" FontWeight="SemiBold" Margin="0,0,0,16" />
+        <DataGrid Grid.Row="1" ItemsSource="{Binding Tasks}" AutoGenerateColumns="False" IsReadOnly="True"
+                  CanUserAddRows="False" infra:EventCommandBehavior.RowDoubleClickCommand="{Binding OpenTaskCommand}">
+            <DataGrid.RowStyle>
+                <Style TargetType="DataGridRow">
+                    <Setter Property="Background" Value="{Binding DeadlineFlag, Converter={StaticResource DeadlineFlagBrushConverter}}" />
+                </Style>
+            </DataGrid.RowStyle>
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="№" Binding="{Binding Id}" Width="70" />
+                <DataGridTextColumn Header="Задача" Binding="{Binding Title}" Width="2*" />
+                <DataGridTextColumn Header="Заявка" Binding="{Binding TicketTitle}" Width="2*" />
+                <DataGridTextColumn Header="Исполнитель" Binding="{Binding AssignedEmployeeName}" Width="*" />
+                <DataGridTemplateColumn Header="Статус" Width="140">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <materialDesign:Chip Content="{Binding Status, Converter={StaticResource StatusCaptionConverter}}"
+                                                 Background="{Binding Status, Converter={StaticResource StatusBrushConverter}}"
+                                                 Foreground="White" />
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTextColumn Header="Дедлайн" Binding="{Binding Deadline, StringFormat={}{0:dd.MM.yyyy}}" Width="120" />
+                <DataGridTextColumn Header="Создана" Binding="{Binding CreatedAt, StringFormat={}{0:dd.MM.yyyy}}" Width="120" />
+            </DataGrid.Columns>
+        </DataGrid>
+        <materialDesign:Snackbar Grid.Row="1" MessageQueue="{Binding Messages}" VerticalAlignment="Bottom" />
+    </Grid>
+</UserControl>
