@@ -1,0 +1,269 @@
+C:\Users\denis\Documents\New project\AdminTaskSystem\obj\Debug\net10.0-windows\AdminTaskSystem.csproj.AssemblyReference.cache
+C:\Users\denis\Documents\New project\AdminTaskSystem\obj\Debug\net10.0-windows\Views\EmployeeEditDialog.baml
+C:\Users\denis\Documents\New project\AdminTaskSystem\obj\Debug\net10.0-windows\Views\TaskEditDialog.baml
+C:\Users\denis\Documents\New project\AdminTaskSystem\obj\Debug\net10.0-windows\Views\EmployeeEditDialog.g.cs
+C:\Users\denis\Documents\New project\AdminTaskSystem\obj\Debug\net10.0-windows\Views\EmployeesView.g.cs
+C:\Users\denis\Documents\New project\AdminTaskSystem\obj\Debug\net10.0-windows\Views\LoginWindow.g.cs
+C:\Users\denis\Documents\New project\AdminTaskSystem\obj\Debug\net10.0-windows\Views\MainWindow.g.cs
+C:\Users\denis\Documents\New project\AdminTaskSystem\obj\Debug\net10.0-windows\Views\ReportsView.g.cs
+C:\Users\denis\Documents\New project\AdminTaskSystem\obj\Debug\net10.0-windows\Views\TaskEditDialog.g.cs
+C:\Users\denis\Documents\New project\AdminTaskSystem\obj\Debug\net10.0-windows\Views\TasksView.g.cs
+C:\Users\denis\Documents\New project\AdminTaskSystem\obj\Debug\net10.0-windows\Views\TicketDetailView.g.cs
+C:\Users\denis\Documents\New project\AdminTaskSystem\obj\Debug\net10.0-windows\Views\TicketsView.g.cs
+C:\Users\denis\Documents\New project\AdminTaskSystem\obj\Debug\net10.0-windows\App.g.cs
+C:\Users\denis\Documents\New project\AdminTaskSystem\obj\Debug\net10.0-windows\AdminTaskSystem_Content.g.cs
+C:\Users\denis\Documents\New project\AdminTaskSystem\obj\Debug\net10.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\denis\Documents\New project\AdminTaskSystem\obj\Debug\net10.0-windows\AdminTaskSystem_MarkupCompile.cache
+C:\Users\denis\Documents\New project\AdminTaskSystem\obj\Debug\net10.0-windows\AdminTaskSystem_MarkupCompile.lref
+C:\Users\denis\Documents\New project\AdminTaskSystem\bin\Debug\net10.0-windows\appsettings.json
+C:\Users\denis\Documents\New project\AdminTaskSystem\bin\Debug\net10.0-windows\AdminTaskSystem.exe
+C:\Users\denis\Documents\New project\AdminTaskSystem\bin\Debug\net10.0-windows\AdminTaskSystem.deps.json
+C:\Users\denis\Documents\New project\AdminTaskSystem\bin\Debug\net10.0-windows\AdminTaskSystem.runtimeconfig.json
+C:\Users\denis\Documents\New project\AdminTaskSystem\bin\Debug\net10.0-windows\AdminTaskSystem.dll
+C:\Users\denis\Documents\New project\AdminTaskSystem\bin\Debug\net10.0-windows\AdminTaskSystem.pdb
+C:\Users\denis\Documents\New project\AdminTaskSystem\bin\Debug\net10.0-windows\CommunityToolkit.Mvvm.dll
+C:\Users\denis\Documents\New project\AdminTaskSystem\bin\Debug\net10.0-windows\MaterialDesignColors.dll
+C:\Users\denis\Documents\New project\AdminTaskSystem\bin\Debug\net10.0-windows\MaterialDesignThemes.Wpf.dll
+C:\Users\denis\Documents\New project\AdminTaskSystem\bin\Debug\net10.0-windows\Microsoft.Extensions.Configuration.dll
+C:\Users\denis\Documents\New project\AdminTaskSystem\bin\Debug\net10.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\denis\Documents\New project\AdminTaskSystem\bin\Debug\net10.0-windows\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\denis\Documents\New project\AdminTaskSystem\bin\Debug\net10.0-windows\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\denis\Documents\New project\AdminTaskSystem\bin\Debug\net10.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\denis\Documents\New project\AdminTaskSystem\bin\Debug\net10.0-windows\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\denis\Documents\New project\AdminTaskSystem\bin\Debug\net10.0-windows\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\denis\Documents\New project\AdminTaskSystem\bin\Debug\net10.0-windows\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\denis\Documents\New project\AdminTaskSystem\bin\Debug\net10.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\denis\Documents\New project\AdminTaskSystem\bin\Debug\net10.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\denis\Documents\New project\AdminTaskSystem\bin\Debug\net10.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\denis\Documents\New project\AdminTaskSystem\bin\Debug\net10.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\denis\Documents\New project\AdminTaskSystem\bin\Debug\net10.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\denis\Documents\New project\AdminTaskSystem\bin\Debug\net10.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\denis\Documents\New project\AdminTaskSystem\bin\Debug\net10.0-windows\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\denis\Documents\New project\AdminTaskSystem\bin\Debug\net10.0-windows\Microsoft.Xaml.Behaviors.dll
+C:\Users\denis\Documents\New project\AdminTaskSystem\bin\Debug\net10.0-windows\MimeMapping.dll
+C:\Users\denis\Documents\New project\AdminTaskSystem\bin\Debug\net10.0-windows\Newtonsoft.Json.dll
+C:\Users\denis\Documents\New project\AdminTaskSystem\bin\Debug\net10.0-windows\Supabase.dll
+C:\Users\denis\Documents\New project\AdminTaskSystem\bin\Debug\net10.0-windows\Supabase.Core.dll
+C:\Users\denis\Documents\New project\AdminTaskSystem\bin\Debug\net10.0-windows\Supabase.Functions.dll
+C:\Users\denis\Documents\New project\AdminTaskSystem\bin\Debug\net10.0-windows\Supabase.Gotrue.dll
+C:\Users\denis\Documents\New project\AdminTaskSystem\bin\Debug\net10.0-windows\Supabase.Postgrest.dll
+C:\Users\denis\Documents\New project\AdminTaskSystem\bin\Debug\net10.0-windows\Supabase.Realtime.dll
+C:\Users\denis\Documents\New project\AdminTaskSystem\bin\Debug\net10.0-windows\Supabase.Storage.dll
+C:\Users\denis\Documents\New project\AdminTaskSystem\bin\Debug\net10.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\denis\Documents\New project\AdminTaskSystem\bin\Debug\net10.0-windows\System.Reactive.dll
+C:\Users\denis\Documents\New project\AdminTaskSystem\bin\Debug\net10.0-windows\Websocket.Client.dll
+C:\Users\denis\Documents\New project\AdminTaskSystem\obj\Debug\net10.0-windows\App.baml
+C:\Users\denis\Documents\New project\AdminTaskSystem\obj\Debug\net10.0-windows\Views\EmployeesView.baml
+C:\Users\denis\Documents\New project\AdminTaskSystem\obj\Debug\net10.0-windows\Views\LoginWindow.baml
+C:\Users\denis\Documents\New project\AdminTaskSystem\obj\Debug\net10.0-windows\Views\MainWindow.baml
+C:\Users\denis\Documents\New project\AdminTaskSystem\obj\Debug\net10.0-windows\Views\ReportsView.baml
+C:\Users\denis\Documents\New project\AdminTaskSystem\obj\Debug\net10.0-windows\Views\TasksView.baml
+C:\Users\denis\Documents\New project\AdminTaskSystem\obj\Debug\net10.0-windows\Views\TicketDetailView.baml
+C:\Users\denis\Documents\New project\AdminTaskSystem\obj\Debug\net10.0-windows\Views\TicketsView.baml
+C:\Users\denis\Documents\New project\AdminTaskSystem\obj\Debug\net10.0-windows\AdminTaskSystem.g.resources
+C:\Users\denis\Documents\New project\AdminTaskSystem\obj\Debug\net10.0-windows\AdminTaskSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\denis\Documents\New project\AdminTaskSystem\obj\Debug\net10.0-windows\AdminTaskSystem.AssemblyInfoInputs.cache
+C:\Users\denis\Documents\New project\AdminTaskSystem\obj\Debug\net10.0-windows\AdminTaskSystem.AssemblyInfo.cs
+C:\Users\denis\Documents\New project\AdminTaskSystem\obj\Debug\net10.0-windows\AdminTaskSystem.csproj.CoreCompileInputs.cache
+C:\Users\denis\Documents\New project\AdminTaskSystem\obj\Debug\net10.0-windows\AdminTas.6BFD7398.Up2Date
+C:\Users\denis\Documents\New project\AdminTaskSystem\obj\Debug\net10.0-windows\AdminTaskSystem.dll
+C:\Users\denis\Documents\New project\AdminTaskSystem\obj\Debug\net10.0-windows\refint\AdminTaskSystem.dll
+C:\Users\denis\Documents\New project\AdminTaskSystem\obj\Debug\net10.0-windows\AdminTaskSystem.pdb
+C:\Users\denis\Documents\New project\AdminTaskSystem\obj\Debug\net10.0-windows\AdminTaskSystem.genruntimeconfig.cache
+C:\Users\denis\Documents\New project\AdminTaskSystem\obj\Debug\net10.0-windows\ref\AdminTaskSystem.dll
+C:\Users\denis\Documents\New project\AdminTaskSystem\obj\Debug\net10.0-windows\Views\TaskDetailDialog.baml
+C:\Users\denis\Documents\New project\AdminTaskSystem\obj\Debug\net10.0-windows\Views\TicketDetailDialog.baml
+C:\Users\denis\Documents\New project\AdminTaskSystem\obj\Debug\net10.0-windows\Views\ProfileView.g.cs
+C:\Users\denis\Documents\New project\AdminTaskSystem\obj\Debug\net10.0-windows\Views\TaskDetailDialog.g.cs
+C:\Users\denis\Documents\New project\AdminTaskSystem\obj\Debug\net10.0-windows\Views\TicketDetailDialog.g.cs
+E:\AdminTaskSystem\obj\Debug\net10.0-windows\AdminTaskSystem.csproj.AssemblyReference.cache
+E:\AdminTaskSystem\obj\Debug\net10.0-windows\Views\EmployeeEditDialog.baml
+E:\AdminTaskSystem\obj\Debug\net10.0-windows\Views\EmployeesView.baml
+E:\AdminTaskSystem\obj\Debug\net10.0-windows\Views\MainWindow.baml
+E:\AdminTaskSystem\obj\Debug\net10.0-windows\Views\ReportsView.baml
+E:\AdminTaskSystem\obj\Debug\net10.0-windows\Views\TaskDetailDialog.baml
+E:\AdminTaskSystem\obj\Debug\net10.0-windows\Views\TasksView.baml
+E:\AdminTaskSystem\obj\Debug\net10.0-windows\Views\TicketDetailDialog.baml
+E:\AdminTaskSystem\obj\Debug\net10.0-windows\Views\TicketsView.baml
+E:\AdminTaskSystem\obj\Debug\net10.0-windows\Views\EmployeeEditDialog.g.cs
+E:\AdminTaskSystem\obj\Debug\net10.0-windows\Views\EmployeesView.g.cs
+E:\AdminTaskSystem\obj\Debug\net10.0-windows\Views\LoginWindow.g.cs
+E:\AdminTaskSystem\obj\Debug\net10.0-windows\Views\MainWindow.g.cs
+E:\AdminTaskSystem\obj\Debug\net10.0-windows\Views\ProfileView.g.cs
+E:\AdminTaskSystem\obj\Debug\net10.0-windows\Views\ReportsView.g.cs
+E:\AdminTaskSystem\obj\Debug\net10.0-windows\Views\TaskDetailDialog.g.cs
+E:\AdminTaskSystem\obj\Debug\net10.0-windows\Views\TasksView.g.cs
+E:\AdminTaskSystem\obj\Debug\net10.0-windows\Views\TicketDetailDialog.g.cs
+E:\AdminTaskSystem\obj\Debug\net10.0-windows\Views\TicketsView.g.cs
+E:\AdminTaskSystem\obj\Debug\net10.0-windows\App.g.cs
+E:\AdminTaskSystem\obj\Debug\net10.0-windows\AdminTaskSystem_Content.g.cs
+E:\AdminTaskSystem\obj\Debug\net10.0-windows\GeneratedInternalTypeHelper.g.cs
+E:\AdminTaskSystem\obj\Debug\net10.0-windows\AdminTaskSystem_MarkupCompile.cache
+E:\AdminTaskSystem\obj\Debug\net10.0-windows\AdminTaskSystem_MarkupCompile.lref
+E:\AdminTaskSystem\obj\Debug\net10.0-windows\AdminTaskSystem.dll
+E:\AdminTaskSystem\obj\Debug\net10.0-windows\refint\AdminTaskSystem.dll
+E:\AdminTaskSystem\obj\Debug\net10.0-windows\AdminTaskSystem.pdb
+C:\Users\sebik\OneDrive\Desktop\AdminTaskSystem\bin\Debug\net10.0-windows\appsettings.json
+C:\Users\sebik\OneDrive\Desktop\AdminTaskSystem\bin\Debug\net10.0-windows\AdminTaskSystem.exe
+C:\Users\sebik\OneDrive\Desktop\AdminTaskSystem\bin\Debug\net10.0-windows\AdminTaskSystem.deps.json
+C:\Users\sebik\OneDrive\Desktop\AdminTaskSystem\bin\Debug\net10.0-windows\AdminTaskSystem.runtimeconfig.json
+C:\Users\sebik\OneDrive\Desktop\AdminTaskSystem\bin\Debug\net10.0-windows\AdminTaskSystem.dll
+C:\Users\sebik\OneDrive\Desktop\AdminTaskSystem\bin\Debug\net10.0-windows\AdminTaskSystem.pdb
+C:\Users\sebik\OneDrive\Desktop\AdminTaskSystem\bin\Debug\net10.0-windows\ClosedXML.dll
+C:\Users\sebik\OneDrive\Desktop\AdminTaskSystem\bin\Debug\net10.0-windows\ClosedXML.Parser.dll
+C:\Users\sebik\OneDrive\Desktop\AdminTaskSystem\bin\Debug\net10.0-windows\CommunityToolkit.Mvvm.dll
+C:\Users\sebik\OneDrive\Desktop\AdminTaskSystem\bin\Debug\net10.0-windows\DocumentFormat.OpenXml.dll
+C:\Users\sebik\OneDrive\Desktop\AdminTaskSystem\bin\Debug\net10.0-windows\DocumentFormat.OpenXml.Framework.dll
+C:\Users\sebik\OneDrive\Desktop\AdminTaskSystem\bin\Debug\net10.0-windows\ExcelNumberFormat.dll
+C:\Users\sebik\OneDrive\Desktop\AdminTaskSystem\bin\Debug\net10.0-windows\MaterialDesignColors.dll
+C:\Users\sebik\OneDrive\Desktop\AdminTaskSystem\bin\Debug\net10.0-windows\MaterialDesignThemes.Wpf.dll
+C:\Users\sebik\OneDrive\Desktop\AdminTaskSystem\bin\Debug\net10.0-windows\Microsoft.Extensions.Configuration.dll
+C:\Users\sebik\OneDrive\Desktop\AdminTaskSystem\bin\Debug\net10.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\sebik\OneDrive\Desktop\AdminTaskSystem\bin\Debug\net10.0-windows\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\sebik\OneDrive\Desktop\AdminTaskSystem\bin\Debug\net10.0-windows\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\sebik\OneDrive\Desktop\AdminTaskSystem\bin\Debug\net10.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\sebik\OneDrive\Desktop\AdminTaskSystem\bin\Debug\net10.0-windows\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\sebik\OneDrive\Desktop\AdminTaskSystem\bin\Debug\net10.0-windows\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\sebik\OneDrive\Desktop\AdminTaskSystem\bin\Debug\net10.0-windows\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\sebik\OneDrive\Desktop\AdminTaskSystem\bin\Debug\net10.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\sebik\OneDrive\Desktop\AdminTaskSystem\bin\Debug\net10.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\sebik\OneDrive\Desktop\AdminTaskSystem\bin\Debug\net10.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\sebik\OneDrive\Desktop\AdminTaskSystem\bin\Debug\net10.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\sebik\OneDrive\Desktop\AdminTaskSystem\bin\Debug\net10.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\sebik\OneDrive\Desktop\AdminTaskSystem\bin\Debug\net10.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\sebik\OneDrive\Desktop\AdminTaskSystem\bin\Debug\net10.0-windows\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\sebik\OneDrive\Desktop\AdminTaskSystem\bin\Debug\net10.0-windows\Microsoft.Xaml.Behaviors.dll
+C:\Users\sebik\OneDrive\Desktop\AdminTaskSystem\bin\Debug\net10.0-windows\MimeMapping.dll
+C:\Users\sebik\OneDrive\Desktop\AdminTaskSystem\bin\Debug\net10.0-windows\Newtonsoft.Json.dll
+C:\Users\sebik\OneDrive\Desktop\AdminTaskSystem\bin\Debug\net10.0-windows\RBush.dll
+C:\Users\sebik\OneDrive\Desktop\AdminTaskSystem\bin\Debug\net10.0-windows\SixLabors.Fonts.dll
+C:\Users\sebik\OneDrive\Desktop\AdminTaskSystem\bin\Debug\net10.0-windows\Supabase.dll
+C:\Users\sebik\OneDrive\Desktop\AdminTaskSystem\bin\Debug\net10.0-windows\Supabase.Core.dll
+C:\Users\sebik\OneDrive\Desktop\AdminTaskSystem\bin\Debug\net10.0-windows\Supabase.Functions.dll
+C:\Users\sebik\OneDrive\Desktop\AdminTaskSystem\bin\Debug\net10.0-windows\Supabase.Gotrue.dll
+C:\Users\sebik\OneDrive\Desktop\AdminTaskSystem\bin\Debug\net10.0-windows\Supabase.Postgrest.dll
+C:\Users\sebik\OneDrive\Desktop\AdminTaskSystem\bin\Debug\net10.0-windows\Supabase.Realtime.dll
+C:\Users\sebik\OneDrive\Desktop\AdminTaskSystem\bin\Debug\net10.0-windows\Supabase.Storage.dll
+C:\Users\sebik\OneDrive\Desktop\AdminTaskSystem\bin\Debug\net10.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\sebik\OneDrive\Desktop\AdminTaskSystem\bin\Debug\net10.0-windows\System.Reactive.dll
+C:\Users\sebik\OneDrive\Desktop\AdminTaskSystem\bin\Debug\net10.0-windows\Websocket.Client.dll
+C:\Users\sebik\OneDrive\Desktop\AdminTaskSystem\obj\Debug\net10.0-windows\AdminTaskSystem.csproj.AssemblyReference.cache
+C:\Users\sebik\OneDrive\Desktop\AdminTaskSystem\obj\Debug\net10.0-windows\Views\EmployeeEditDialog.baml
+C:\Users\sebik\OneDrive\Desktop\AdminTaskSystem\obj\Debug\net10.0-windows\Views\EmployeesView.baml
+C:\Users\sebik\OneDrive\Desktop\AdminTaskSystem\obj\Debug\net10.0-windows\Views\MainWindow.baml
+C:\Users\sebik\OneDrive\Desktop\AdminTaskSystem\obj\Debug\net10.0-windows\Views\ReportsView.baml
+C:\Users\sebik\OneDrive\Desktop\AdminTaskSystem\obj\Debug\net10.0-windows\Views\TaskDetailDialog.baml
+C:\Users\sebik\OneDrive\Desktop\AdminTaskSystem\obj\Debug\net10.0-windows\Views\TasksView.baml
+C:\Users\sebik\OneDrive\Desktop\AdminTaskSystem\obj\Debug\net10.0-windows\Views\TicketDetailDialog.baml
+C:\Users\sebik\OneDrive\Desktop\AdminTaskSystem\obj\Debug\net10.0-windows\Views\TicketsView.baml
+C:\Users\sebik\OneDrive\Desktop\AdminTaskSystem\obj\Debug\net10.0-windows\Views\EmployeeEditDialog.g.cs
+C:\Users\sebik\OneDrive\Desktop\AdminTaskSystem\obj\Debug\net10.0-windows\Views\EmployeesView.g.cs
+C:\Users\sebik\OneDrive\Desktop\AdminTaskSystem\obj\Debug\net10.0-windows\Views\LoginWindow.g.cs
+C:\Users\sebik\OneDrive\Desktop\AdminTaskSystem\obj\Debug\net10.0-windows\Views\MainWindow.g.cs
+C:\Users\sebik\OneDrive\Desktop\AdminTaskSystem\obj\Debug\net10.0-windows\Views\ProfileView.g.cs
+C:\Users\sebik\OneDrive\Desktop\AdminTaskSystem\obj\Debug\net10.0-windows\Views\ReportsView.g.cs
+C:\Users\sebik\OneDrive\Desktop\AdminTaskSystem\obj\Debug\net10.0-windows\Views\TaskDetailDialog.g.cs
+C:\Users\sebik\OneDrive\Desktop\AdminTaskSystem\obj\Debug\net10.0-windows\Views\TasksView.g.cs
+C:\Users\sebik\OneDrive\Desktop\AdminTaskSystem\obj\Debug\net10.0-windows\Views\TicketDetailDialog.g.cs
+C:\Users\sebik\OneDrive\Desktop\AdminTaskSystem\obj\Debug\net10.0-windows\Views\TicketsView.g.cs
+C:\Users\sebik\OneDrive\Desktop\AdminTaskSystem\obj\Debug\net10.0-windows\App.g.cs
+C:\Users\sebik\OneDrive\Desktop\AdminTaskSystem\obj\Debug\net10.0-windows\AdminTaskSystem_Content.g.cs
+C:\Users\sebik\OneDrive\Desktop\AdminTaskSystem\obj\Debug\net10.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\sebik\OneDrive\Desktop\AdminTaskSystem\obj\Debug\net10.0-windows\AdminTaskSystem_MarkupCompile.cache
+C:\Users\sebik\OneDrive\Desktop\AdminTaskSystem\obj\Debug\net10.0-windows\AdminTaskSystem_MarkupCompile.lref
+C:\Users\sebik\OneDrive\Desktop\AdminTaskSystem\obj\Debug\net10.0-windows\App.baml
+C:\Users\sebik\OneDrive\Desktop\AdminTaskSystem\obj\Debug\net10.0-windows\Views\LoginWindow.baml
+C:\Users\sebik\OneDrive\Desktop\AdminTaskSystem\obj\Debug\net10.0-windows\Views\ProfileView.baml
+C:\Users\sebik\OneDrive\Desktop\AdminTaskSystem\obj\Debug\net10.0-windows\AdminTaskSystem.g.resources
+C:\Users\sebik\OneDrive\Desktop\AdminTaskSystem\obj\Debug\net10.0-windows\AdminTaskSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sebik\OneDrive\Desktop\AdminTaskSystem\obj\Debug\net10.0-windows\AdminTaskSystem.AssemblyInfoInputs.cache
+C:\Users\sebik\OneDrive\Desktop\AdminTaskSystem\obj\Debug\net10.0-windows\AdminTaskSystem.AssemblyInfo.cs
+C:\Users\sebik\OneDrive\Desktop\AdminTaskSystem\obj\Debug\net10.0-windows\AdminTaskSystem.csproj.CoreCompileInputs.cache
+C:\Users\sebik\OneDrive\Desktop\AdminTaskSystem\obj\Debug\net10.0-windows\AdminTas.6BFD7398.Up2Date
+C:\Users\sebik\OneDrive\Desktop\AdminTaskSystem\obj\Debug\net10.0-windows\AdminTaskSystem.dll
+C:\Users\sebik\OneDrive\Desktop\AdminTaskSystem\obj\Debug\net10.0-windows\refint\AdminTaskSystem.dll
+C:\Users\sebik\OneDrive\Desktop\AdminTaskSystem\obj\Debug\net10.0-windows\AdminTaskSystem.pdb
+C:\Users\sebik\OneDrive\Desktop\AdminTaskSystem\obj\Debug\net10.0-windows\AdminTaskSystem.genruntimeconfig.cache
+C:\Users\sebik\OneDrive\Desktop\AdminTaskSystem\obj\Debug\net10.0-windows\ref\AdminTaskSystem.dll
+D:\AdminTaskSystem\bin\Debug\net10.0-windows\appsettings.json
+D:\AdminTaskSystem\bin\Debug\net10.0-windows\AdminTaskSystem.exe
+D:\AdminTaskSystem\bin\Debug\net10.0-windows\AdminTaskSystem.deps.json
+D:\AdminTaskSystem\bin\Debug\net10.0-windows\AdminTaskSystem.runtimeconfig.json
+D:\AdminTaskSystem\bin\Debug\net10.0-windows\AdminTaskSystem.dll
+D:\AdminTaskSystem\bin\Debug\net10.0-windows\AdminTaskSystem.pdb
+D:\AdminTaskSystem\bin\Debug\net10.0-windows\ClosedXML.dll
+D:\AdminTaskSystem\bin\Debug\net10.0-windows\ClosedXML.Parser.dll
+D:\AdminTaskSystem\bin\Debug\net10.0-windows\CommunityToolkit.Mvvm.dll
+D:\AdminTaskSystem\bin\Debug\net10.0-windows\DocumentFormat.OpenXml.dll
+D:\AdminTaskSystem\bin\Debug\net10.0-windows\DocumentFormat.OpenXml.Framework.dll
+D:\AdminTaskSystem\bin\Debug\net10.0-windows\ExcelNumberFormat.dll
+D:\AdminTaskSystem\bin\Debug\net10.0-windows\MaterialDesignColors.dll
+D:\AdminTaskSystem\bin\Debug\net10.0-windows\MaterialDesignThemes.Wpf.dll
+D:\AdminTaskSystem\bin\Debug\net10.0-windows\Microsoft.Extensions.Configuration.dll
+D:\AdminTaskSystem\bin\Debug\net10.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\AdminTaskSystem\bin\Debug\net10.0-windows\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\AdminTaskSystem\bin\Debug\net10.0-windows\Microsoft.Extensions.Configuration.Json.dll
+D:\AdminTaskSystem\bin\Debug\net10.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\AdminTaskSystem\bin\Debug\net10.0-windows\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\AdminTaskSystem\bin\Debug\net10.0-windows\Microsoft.Extensions.FileProviders.Physical.dll
+D:\AdminTaskSystem\bin\Debug\net10.0-windows\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\AdminTaskSystem\bin\Debug\net10.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+D:\AdminTaskSystem\bin\Debug\net10.0-windows\Microsoft.Extensions.Primitives.dll
+D:\AdminTaskSystem\bin\Debug\net10.0-windows\Microsoft.IdentityModel.Abstractions.dll
+D:\AdminTaskSystem\bin\Debug\net10.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\AdminTaskSystem\bin\Debug\net10.0-windows\Microsoft.IdentityModel.Logging.dll
+D:\AdminTaskSystem\bin\Debug\net10.0-windows\Microsoft.IdentityModel.Tokens.dll
+D:\AdminTaskSystem\bin\Debug\net10.0-windows\Microsoft.IO.RecyclableMemoryStream.dll
+D:\AdminTaskSystem\bin\Debug\net10.0-windows\Microsoft.Xaml.Behaviors.dll
+D:\AdminTaskSystem\bin\Debug\net10.0-windows\MimeMapping.dll
+D:\AdminTaskSystem\bin\Debug\net10.0-windows\Newtonsoft.Json.dll
+D:\AdminTaskSystem\bin\Debug\net10.0-windows\RBush.dll
+D:\AdminTaskSystem\bin\Debug\net10.0-windows\SixLabors.Fonts.dll
+D:\AdminTaskSystem\bin\Debug\net10.0-windows\Supabase.dll
+D:\AdminTaskSystem\bin\Debug\net10.0-windows\Supabase.Core.dll
+D:\AdminTaskSystem\bin\Debug\net10.0-windows\Supabase.Functions.dll
+D:\AdminTaskSystem\bin\Debug\net10.0-windows\Supabase.Gotrue.dll
+D:\AdminTaskSystem\bin\Debug\net10.0-windows\Supabase.Postgrest.dll
+D:\AdminTaskSystem\bin\Debug\net10.0-windows\Supabase.Realtime.dll
+D:\AdminTaskSystem\bin\Debug\net10.0-windows\Supabase.Storage.dll
+D:\AdminTaskSystem\bin\Debug\net10.0-windows\System.IdentityModel.Tokens.Jwt.dll
+D:\AdminTaskSystem\bin\Debug\net10.0-windows\System.Reactive.dll
+D:\AdminTaskSystem\bin\Debug\net10.0-windows\Websocket.Client.dll
+D:\AdminTaskSystem\obj\Debug\net10.0-windows\AdminTaskSystem.csproj.AssemblyReference.cache
+D:\AdminTaskSystem\obj\Debug\net10.0-windows\Views\EmployeeEditDialog.baml
+D:\AdminTaskSystem\obj\Debug\net10.0-windows\Views\EmployeesView.baml
+D:\AdminTaskSystem\obj\Debug\net10.0-windows\Views\MainWindow.baml
+D:\AdminTaskSystem\obj\Debug\net10.0-windows\Views\ReportsView.baml
+D:\AdminTaskSystem\obj\Debug\net10.0-windows\Views\TaskDetailDialog.baml
+D:\AdminTaskSystem\obj\Debug\net10.0-windows\Views\TasksView.baml
+D:\AdminTaskSystem\obj\Debug\net10.0-windows\Views\TicketDetailDialog.baml
+D:\AdminTaskSystem\obj\Debug\net10.0-windows\Views\TicketsView.baml
+D:\AdminTaskSystem\obj\Debug\net10.0-windows\Views\EmployeeEditDialog.g.cs
+D:\AdminTaskSystem\obj\Debug\net10.0-windows\Views\EmployeesView.g.cs
+D:\AdminTaskSystem\obj\Debug\net10.0-windows\Views\LoginWindow.g.cs
+D:\AdminTaskSystem\obj\Debug\net10.0-windows\Views\MainWindow.g.cs
+D:\AdminTaskSystem\obj\Debug\net10.0-windows\Views\ProfileView.g.cs
+D:\AdminTaskSystem\obj\Debug\net10.0-windows\Views\ReportsView.g.cs
+D:\AdminTaskSystem\obj\Debug\net10.0-windows\Views\TaskDetailDialog.g.cs
+D:\AdminTaskSystem\obj\Debug\net10.0-windows\Views\TasksView.g.cs
+D:\AdminTaskSystem\obj\Debug\net10.0-windows\Views\TicketDetailDialog.g.cs
+D:\AdminTaskSystem\obj\Debug\net10.0-windows\Views\TicketsView.g.cs
+D:\AdminTaskSystem\obj\Debug\net10.0-windows\App.g.cs
+D:\AdminTaskSystem\obj\Debug\net10.0-windows\AdminTaskSystem_Content.g.cs
+D:\AdminTaskSystem\obj\Debug\net10.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\AdminTaskSystem\obj\Debug\net10.0-windows\AdminTaskSystem_MarkupCompile.cache
+D:\AdminTaskSystem\obj\Debug\net10.0-windows\AdminTaskSystem_MarkupCompile.lref
+D:\AdminTaskSystem\obj\Debug\net10.0-windows\App.baml
+D:\AdminTaskSystem\obj\Debug\net10.0-windows\Views\LoginWindow.baml
+D:\AdminTaskSystem\obj\Debug\net10.0-windows\Views\ProfileView.baml
+D:\AdminTaskSystem\obj\Debug\net10.0-windows\AdminTaskSystem.g.resources
+D:\AdminTaskSystem\obj\Debug\net10.0-windows\AdminTaskSystem.GeneratedMSBuildEditorConfig.editorconfig
+D:\AdminTaskSystem\obj\Debug\net10.0-windows\AdminTaskSystem.AssemblyInfoInputs.cache
+D:\AdminTaskSystem\obj\Debug\net10.0-windows\AdminTaskSystem.AssemblyInfo.cs
+D:\AdminTaskSystem\obj\Debug\net10.0-windows\AdminTaskSystem.csproj.CoreCompileInputs.cache
+D:\AdminTaskSystem\obj\Debug\net10.0-windows\AdminTas.6BFD7398.Up2Date
+D:\AdminTaskSystem\obj\Debug\net10.0-windows\AdminTaskSystem.dll
+D:\AdminTaskSystem\obj\Debug\net10.0-windows\refint\AdminTaskSystem.dll
+D:\AdminTaskSystem\obj\Debug\net10.0-windows\AdminTaskSystem.pdb
+D:\AdminTaskSystem\obj\Debug\net10.0-windows\AdminTaskSystem.genruntimeconfig.cache
+D:\AdminTaskSystem\obj\Debug\net10.0-windows\ref\AdminTaskSystem.dll

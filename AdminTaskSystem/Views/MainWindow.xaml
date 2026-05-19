@@ -1,0 +1,316 @@
+<Window x:Class="AdminTaskSystem.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        Title="AdminTaskSystem"
+        MinWidth="1100"
+        MinHeight="650"
+        Width="1280"
+        Height="760"
+        WindowStartupLocation="CenterScreen"
+        Background="{StaticResource ContentBgBrush}">
+    <Window.Resources>
+        <Style x:Key="SidebarNavItemStyle" TargetType="RadioButton">
+            <Setter Property="Foreground" Value="#D8E8F7" />
+            <Setter Property="FontFamily" Value="Segoe UI" />
+            <Setter Property="FontSize" Value="13" />
+            <Setter Property="Height" Value="44" />
+            <Setter Property="Margin" Value="10,3" />
+            <Setter Property="Cursor" Value="Hand" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="RadioButton">
+                        <Border x:Name="Root"
+                                Background="Transparent"
+                                BorderBrush="Transparent"
+                                BorderThickness="3,0,0,0"
+                                CornerRadius="8"
+                                Padding="12,0">
+                            <ContentPresenter VerticalAlignment="Center"
+                                              RecognizesAccessKey="True" />
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="Root" Property="Background" Value="#16314D" />
+                            </Trigger>
+                            <Trigger Property="IsChecked" Value="True">
+                                <Setter TargetName="Root" Property="Background" Value="#1E4E7A" />
+                                <Setter TargetName="Root" Property="BorderBrush" Value="#64B5F6" />
+                                <Setter Property="Foreground" Value="White" />
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+
+    <materialDesign:DialogHost Identifier="RootDialog">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="250" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <DockPanel Grid.Column="0" Background="{StaticResource SidebarBgBrush}">
+                <Border DockPanel.Dock="Top"
+                        Height="78"
+                        BorderBrush="{StaticResource SidebarBorderCBrush}"
+                        BorderThickness="0,0,0,1"
+                        Padding="18,0">
+                    <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                        <Border Width="42"
+                                Height="42"
+                                CornerRadius="12"
+                                Background="#1565C0"
+                                Margin="0,0,12,0">
+                            <materialDesign:PackIcon Kind="Domain"
+                                                     Width="24"
+                                                     Height="24"
+                                                     Foreground="White"
+                                                     HorizontalAlignment="Center"
+                                                     VerticalAlignment="Center" />
+                        </Border>
+                        <StackPanel>
+                            <TextBlock Text="AdminTaskSystem"
+                                       Foreground="White"
+                                       FontSize="15"
+                                       FontWeight="SemiBold" />
+                            <TextBlock Text="Администрация"
+                                       Foreground="{StaticResource SidebarTextCBrush}"
+                                       FontSize="11" />
+                        </StackPanel>
+                    </StackPanel>
+                </Border>
+
+                <Border DockPanel.Dock="Bottom"
+                        Height="76"
+                        BorderBrush="{StaticResource SidebarBorderCBrush}"
+                        BorderThickness="0,1,0,0"
+                        Padding="16,0">
+                    <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                        <Border Width="42"
+                                Height="42"
+                                CornerRadius="21"
+                                Background="#1565C0"
+                                Margin="0,0,10,0">
+                            <TextBlock Text="{Binding CurrentUserInitials}"
+                                       Foreground="White"
+                                       HorizontalAlignment="Center"
+                                       VerticalAlignment="Center"
+                                       FontWeight="SemiBold" />
+                        </Border>
+                        <StackPanel>
+                            <TextBlock Text="{Binding CurrentUserName}"
+                                       Foreground="White"
+                                       FontSize="12"
+                                       FontWeight="SemiBold"
+                                       TextTrimming="CharacterEllipsis"
+                                       Width="160" />
+                            <Border Background="#243F5F"
+                                    CornerRadius="9"
+                                    Padding="8,2"
+                                    Margin="0,5,0,0"
+                                    HorizontalAlignment="Left">
+                                <TextBlock Text="{Binding RoleBadgeText}"
+                                           Foreground="#D8E8F7"
+                                           FontSize="10" />
+                            </Border>
+                        </StackPanel>
+                    </StackPanel>
+                </Border>
+
+                <Button DockPanel.Dock="Bottom"
+                        Command="{Binding ToggleNotificationsCommand}"
+                        Height="48"
+                        Margin="10,0,10,8"
+                        Background="#16314D"
+                        Foreground="White"
+                        BorderThickness="0">
+                    <Grid>
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                            <materialDesign:PackIcon Kind="BellOutline"
+                                                     Width="19"
+                                                     Height="19"
+                                                     Margin="0,0,8,0" />
+                            <TextBlock Text="Уведомления" Foreground="White" />
+                        </StackPanel>
+                        <Border Background="#E53935"
+                                CornerRadius="9"
+                                Padding="6,1"
+                                HorizontalAlignment="Right"
+                                VerticalAlignment="Top"
+                                Margin="0,6,8,0"
+                                Visibility="{Binding HasNotifications, Converter={StaticResource BoolToVisibilityConverter}}">
+                            <TextBlock Text="{Binding NotificationCount}"
+                                       Foreground="White"
+                                       FontSize="10"
+                                       FontWeight="SemiBold" />
+                        </Border>
+                    </Grid>
+                </Button>
+
+                <ScrollViewer VerticalScrollBarVisibility="Auto">
+                    <StackPanel Margin="0,16,0,0">
+                        <TextBlock Text="РАБОЧЕЕ МЕСТО"
+                                   Foreground="{StaticResource SidebarTextCBrush}"
+                                   FontSize="10"
+                                   FontWeight="SemiBold"
+                                   Margin="22,4,0,8" />
+
+                        <RadioButton IsChecked="{Binding IsProfileSelected}"
+                                     Command="{Binding NavigateToProfileCommand}"
+                                     Style="{StaticResource SidebarNavItemStyle}">
+                            <StackPanel Orientation="Horizontal">
+                                <materialDesign:PackIcon Kind="AccountCircleOutline" Width="21" Height="21" Margin="0,0,12,0" />
+                                <TextBlock Text="Профиль" Foreground="{Binding Foreground, RelativeSource={RelativeSource AncestorType=RadioButton}}" />
+                            </StackPanel>
+                        </RadioButton>
+
+                        <RadioButton IsChecked="{Binding IsTicketsSelected}"
+                                     Command="{Binding NavigateToTicketsCommand}"
+                                     Style="{StaticResource SidebarNavItemStyle}">
+                            <StackPanel Orientation="Horizontal">
+                                <materialDesign:PackIcon Kind="ClipboardListOutline" Width="21" Height="21" Margin="0,0,12,0" />
+                                <TextBlock Text="Заявки отдела" Foreground="{Binding Foreground, RelativeSource={RelativeSource AncestorType=RadioButton}}" />
+                            </StackPanel>
+                        </RadioButton>
+
+                        <RadioButton IsChecked="{Binding IsTasksSelected}"
+                                     Command="{Binding NavigateToTasksCommand}"
+                                     Style="{StaticResource SidebarNavItemStyle}">
+                            <StackPanel Orientation="Horizontal">
+                                <materialDesign:PackIcon Kind="CheckboxMarkedCircleOutline" Width="21" Height="21" Margin="0,0,12,0" />
+                                <TextBlock Text="Мои задачи" Foreground="{Binding Foreground, RelativeSource={RelativeSource AncestorType=RadioButton}}" />
+                            </StackPanel>
+                        </RadioButton>
+
+                        <Separator Margin="18,14" Background="{StaticResource SidebarBorderCBrush}" />
+
+                        <TextBlock Text="УПРАВЛЕНИЕ"
+                                   Foreground="{StaticResource SidebarTextCBrush}"
+                                   FontSize="10"
+                                   FontWeight="SemiBold"
+                                   Margin="22,0,0,8" />
+
+                        <RadioButton IsChecked="{Binding IsEmployeesSelected}"
+                                     Command="{Binding NavigateToEmployeesCommand}"
+                                     Visibility="{Binding ShowEmployees, Converter={StaticResource BoolToVisibilityConverter}}"
+                                     Style="{StaticResource SidebarNavItemStyle}">
+                            <StackPanel Orientation="Horizontal">
+                                <materialDesign:PackIcon Kind="AccountGroupOutline" Width="21" Height="21" Margin="0,0,12,0" />
+                                <TextBlock Text="Сотрудники" Foreground="{Binding Foreground, RelativeSource={RelativeSource AncestorType=RadioButton}}" />
+                            </StackPanel>
+                        </RadioButton>
+
+                        <RadioButton IsChecked="{Binding IsReportsSelected}"
+                                     Command="{Binding NavigateToReportsCommand}"
+                                     Visibility="{Binding ShowReports, Converter={StaticResource BoolToVisibilityConverter}}"
+                                     Style="{StaticResource SidebarNavItemStyle}">
+                            <StackPanel Orientation="Horizontal">
+                                <materialDesign:PackIcon Kind="ChartBar" Width="21" Height="21" Margin="0,0,12,0" />
+                                <TextBlock Text="Отчёты" Foreground="{Binding Foreground, RelativeSource={RelativeSource AncestorType=RadioButton}}" />
+                            </StackPanel>
+                        </RadioButton>
+
+                        <Separator Margin="18,14" Background="{StaticResource SidebarBorderCBrush}" />
+
+                        <RadioButton Command="{Binding LogoutCommand}"
+                                     Style="{StaticResource SidebarNavItemStyle}">
+                            <StackPanel Orientation="Horizontal">
+                                <materialDesign:PackIcon Kind="LogoutVariant" Width="21" Height="21" Margin="0,0,12,0" />
+                                <TextBlock Text="Выйти" Foreground="{Binding Foreground, RelativeSource={RelativeSource AncestorType=RadioButton}}" />
+                            </StackPanel>
+                        </RadioButton>
+                    </StackPanel>
+                </ScrollViewer>
+            </DockPanel>
+
+            <DockPanel Grid.Column="1" Background="{StaticResource ContentBgBrush}">
+                <Border DockPanel.Dock="Top"
+                        Background="#FFF3E0"
+                        Padding="12,8"
+                        Visibility="{Binding IsOffline, Converter={StaticResource BoolToVisibilityConverter}}">
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                        <materialDesign:PackIcon Kind="CloudOffOutline"
+                                                 Width="18"
+                                                 Height="18"
+                                                 Foreground="#E65100"
+                                                 Margin="0,0,8,0" />
+                        <TextBlock Text="Нет подключения к серверу. Работа в режиме просмотра кэша."
+                                   Foreground="#E65100"
+                                   FontSize="12" />
+                    </StackPanel>
+                </Border>
+
+                <Border DockPanel.Dock="Top"
+                        Height="64"
+                        Background="White"
+                        BorderBrush="{StaticResource BorderCBrush}"
+                        BorderThickness="0,0,0,1"
+                        Padding="24,0">
+                    <DockPanel VerticalAlignment="Center">
+                        <StackPanel>
+                            <TextBlock Text="{Binding CurrentPageTitle}"
+                                       FontSize="18"
+                                       FontWeight="SemiBold" />
+                            <TextBlock Text="{Binding CurrentPageTitle, StringFormat=Главная / {0}}"
+                                       Foreground="{StaticResource TextSecondaryBrush}"
+                                       FontSize="12" />
+                        </StackPanel>
+                    </DockPanel>
+                </Border>
+
+                <Popup IsOpen="{Binding IsNotificationPanelOpen}"
+                       Placement="Mouse"
+                       StaysOpen="False"
+                       AllowsTransparency="True">
+                    <Border Width="340"
+                            Background="White"
+                            BorderBrush="{StaticResource BorderCBrush}"
+                            BorderThickness="1"
+                            CornerRadius="10"
+                            Padding="14">
+                        <DockPanel>
+                            <DockPanel DockPanel.Dock="Top" Margin="0,0,0,10">
+                                <TextBlock Text="Уведомления"
+                                           FontSize="15"
+                                           FontWeight="SemiBold"
+                                           VerticalAlignment="Center" />
+                                <Button DockPanel.Dock="Right"
+                                        Content="Прочитать все"
+                                        Command="{Binding MarkAllReadCommand}"
+                                        Style="{StaticResource MaterialDesignFlatButton}" />
+                            </DockPanel>
+                            <ItemsControl ItemsSource="{Binding Notifications}">
+                                <ItemsControl.ItemTemplate>
+                                    <DataTemplate>
+                                        <Border BorderBrush="{StaticResource BorderCBrush}"
+                                                BorderThickness="0,0,0,1"
+                                                Padding="0,9">
+                                            <StackPanel>
+                                                <TextBlock Text="{Binding Title}" FontWeight="SemiBold" FontSize="12" />
+                                                <TextBlock Text="{Binding Body}"
+                                                           Foreground="{StaticResource TextSecondaryBrush}"
+                                                           FontSize="11"
+                                                           TextWrapping="Wrap"
+                                                           Margin="0,3,0,0" />
+                                                <TextBlock Text="{Binding CreatedAt, StringFormat={}{0:dd.MM.yyyy HH:mm}}"
+                                                           Foreground="{StaticResource TextMutedBrush}"
+                                                           FontSize="10"
+                                                           HorizontalAlignment="Right"
+                                                           Margin="0,4,0,0" />
+                                            </StackPanel>
+                                        </Border>
+                                    </DataTemplate>
+                                </ItemsControl.ItemTemplate>
+                            </ItemsControl>
+                        </DockPanel>
+                    </Border>
+                </Popup>
+
+                <ContentControl Content="{Binding CurrentViewModel}" />
+            </DockPanel>
+        </Grid>
+    </materialDesign:DialogHost>
+</Window>

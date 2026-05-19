@@ -1,0 +1,85 @@
+<UserControl x:Class="AdminTaskSystem.Views.TasksView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes">
+    <DockPanel Margin="20">
+        <materialDesign:Snackbar DockPanel.Dock="Bottom" MessageQueue="{Binding MessageQueue}" />
+
+        <DockPanel DockPanel.Dock="Top" Margin="0,0,0,12">
+            <TextBlock Text="Мои задачи" FontSize="16" FontWeight="Medium" />
+            <Button DockPanel.Dock="Right"
+                    Content="Новая задача"
+                    Command="{Binding CreateTaskCommand}"
+                    Background="{StaticResource AccentBlueBrush}"
+                    Foreground="White"
+                    Visibility="{Binding CanManage, Converter={StaticResource BoolToVisibilityConverter}}" />
+        </DockPanel>
+
+        <Border DockPanel.Dock="Top"
+                Background="White"
+                BorderBrush="{StaticResource BorderCBrush}"
+                BorderThickness="1"
+                Padding="12"
+                Margin="0,0,0,10"
+                Visibility="{Binding CanUseFilters, Converter={StaticResource BoolToVisibilityConverter}}">
+            <WrapPanel>
+                <ComboBox ItemsSource="{Binding StatusFilters}"
+                          SelectedItem="{Binding SelectedStatusFilter}"
+                          Width="140"
+                          Margin="0,0,8,0" />
+                <TextBox Text="{Binding SearchText, UpdateSourceTrigger=PropertyChanged}"
+                         Width="260"
+                         materialDesign:HintAssist.Hint="Поиск" />
+            </WrapPanel>
+        </Border>
+
+        <ProgressBar DockPanel.Dock="Top"
+                     Height="3"
+                     IsIndeterminate="True"
+                     Visibility="{Binding IsBusy, Converter={StaticResource BoolToVisibilityConverter}}" />
+
+        <DataGrid x:Name="Grid"
+                  ItemsSource="{Binding FilteredTasks}"
+                  AutoGenerateColumns="False"
+                  IsReadOnly="True"
+                  CanUserAddRows="False"
+                  MouseDoubleClick="Grid_OnMouseDoubleClick"
+                  AlternatingRowBackground="{StaticResource RowAltBrush}">
+            <DataGrid.RowStyle>
+                <Style TargetType="DataGridRow">
+                    <Setter Property="Background" Value="{Binding DeadlineFlag, Converter={StaticResource DeadlineFlagBrushConverter}}" />
+                </Style>
+            </DataGrid.RowStyle>
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="№" Binding="{Binding Id}" Width="50" />
+                <DataGridTextColumn Header="Задача" Binding="{Binding Title}" Width="*" />
+                <DataGridTextColumn Header="Заявка" Binding="{Binding TicketTitle}" Width="*" />
+                <DataGridTextColumn Header="Исполнитель" Binding="{Binding AssignedEmployeeName}" Width="160" />
+                <DataGridTemplateColumn Header="Статус" Width="120">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Border CornerRadius="10"
+                                    Padding="8,2"
+                                    Background="{Binding Status, Converter={StaticResource StatusBrushConverter}}">
+                                <TextBlock Text="{Binding Status, Converter={StaticResource StatusCaptionConverter}}"
+                                           Foreground="{Binding Status, Converter={StaticResource StatusFgConverter}}" />
+                            </Border>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTextColumn Header="Дедлайн" Binding="{Binding Deadline, StringFormat={}{0:dd.MM.yyyy}}" Width="110" />
+                <DataGridTemplateColumn Width="44">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Command="{Binding DataContext.OpenTaskCommand, RelativeSource={RelativeSource AncestorType=DataGrid}}"
+                                    CommandParameter="{Binding}"
+                                    Style="{StaticResource MaterialDesignToolButton}">
+                                <materialDesign:PackIcon Kind="EyeOutline" />
+                            </Button>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+    </DockPanel>
+</UserControl>
