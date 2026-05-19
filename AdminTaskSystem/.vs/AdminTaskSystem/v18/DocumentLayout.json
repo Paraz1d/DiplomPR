@@ -1,53 +1,57 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\AdminTaskSystem\\",
+  "WorkspaceRootPath": "C:\\Users\\denis\\Documents\\GitHub\\DiplomPR\\AdminTaskSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CA0D07FA-FC24-27E8-04DE-592CD91EDB2A}|AdminTaskSystem.csproj|d:\\admintasksystem\\views\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{CA0D07FA-FC24-27E8-04DE-592CD91EDB2A}|AdminTaskSystem.csproj|c:\\users\\denis\\documents\\github\\diplompr\\admintasksystem\\views\\profileview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CA0D07FA-FC24-27E8-04DE-592CD91EDB2A}|AdminTaskSystem.csproj|solutionrelative:views\\profileview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA0D07FA-FC24-27E8-04DE-592CD91EDB2A}|AdminTaskSystem.csproj|c:\\users\\denis\\documents\\github\\diplompr\\admintasksystem\\views\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{CA0D07FA-FC24-27E8-04DE-592CD91EDB2A}|AdminTaskSystem.csproj|solutionrelative:views\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA0D07FA-FC24-27E8-04DE-592CD91EDB2A}|AdminTaskSystem.csproj|d:\\admintasksystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{CA0D07FA-FC24-27E8-04DE-592CD91EDB2A}|AdminTaskSystem.csproj|c:\\users\\denis\\documents\\github\\diplompr\\admintasksystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{CA0D07FA-FC24-27E8-04DE-592CD91EDB2A}|AdminTaskSystem.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA0D07FA-FC24-27E8-04DE-592CD91EDB2A}|AdminTaskSystem.csproj|d:\\admintasksystem\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CA0D07FA-FC24-27E8-04DE-592CD91EDB2A}|AdminTaskSystem.csproj|c:\\users\\denis\\documents\\github\\diplompr\\admintasksystem\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CA0D07FA-FC24-27E8-04DE-592CD91EDB2A}|AdminTaskSystem.csproj|solutionrelative:services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA0D07FA-FC24-27E8-04DE-592CD91EDB2A}|AdminTaskSystem.csproj|d:\\admintasksystem\\services\\cacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CA0D07FA-FC24-27E8-04DE-592CD91EDB2A}|AdminTaskSystem.csproj|c:\\users\\denis\\documents\\github\\diplompr\\admintasksystem\\services\\cacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CA0D07FA-FC24-27E8-04DE-592CD91EDB2A}|AdminTaskSystem.csproj|solutionrelative:services\\cacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA0D07FA-FC24-27E8-04DE-592CD91EDB2A}|AdminTaskSystem.csproj|d:\\admintasksystem\\models\\employeestats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CA0D07FA-FC24-27E8-04DE-592CD91EDB2A}|AdminTaskSystem.csproj|c:\\users\\denis\\documents\\github\\diplompr\\admintasksystem\\models\\employeestats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CA0D07FA-FC24-27E8-04DE-592CD91EDB2A}|AdminTaskSystem.csproj|solutionrelative:models\\employeestats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA0D07FA-FC24-27E8-04DE-592CD91EDB2A}|AdminTaskSystem.csproj|d:\\admintasksystem\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CA0D07FA-FC24-27E8-04DE-592CD91EDB2A}|AdminTaskSystem.csproj|c:\\users\\denis\\documents\\github\\diplompr\\admintasksystem\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CA0D07FA-FC24-27E8-04DE-592CD91EDB2A}|AdminTaskSystem.csproj|solutionrelative:models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA0D07FA-FC24-27E8-04DE-592CD91EDB2A}|AdminTaskSystem.csproj|d:\\admintasksystem\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CA0D07FA-FC24-27E8-04DE-592CD91EDB2A}|AdminTaskSystem.csproj|c:\\users\\denis\\documents\\github\\diplompr\\admintasksystem\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CA0D07FA-FC24-27E8-04DE-592CD91EDB2A}|AdminTaskSystem.csproj|solutionrelative:services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA0D07FA-FC24-27E8-04DE-592CD91EDB2A}|AdminTaskSystem.csproj|d:\\admintasksystem\\viewmodels\\reportsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CA0D07FA-FC24-27E8-04DE-592CD91EDB2A}|AdminTaskSystem.csproj|c:\\users\\denis\\documents\\github\\diplompr\\admintasksystem\\viewmodels\\reportsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CA0D07FA-FC24-27E8-04DE-592CD91EDB2A}|AdminTaskSystem.csproj|solutionrelative:viewmodels\\reportsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA0D07FA-FC24-27E8-04DE-592CD91EDB2A}|AdminTaskSystem.csproj|d:\\admintasksystem\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CA0D07FA-FC24-27E8-04DE-592CD91EDB2A}|AdminTaskSystem.csproj|c:\\users\\denis\\documents\\github\\diplompr\\admintasksystem\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CA0D07FA-FC24-27E8-04DE-592CD91EDB2A}|AdminTaskSystem.csproj|solutionrelative:viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA0D07FA-FC24-27E8-04DE-592CD91EDB2A}|AdminTaskSystem.csproj|d:\\admintasksystem\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CA0D07FA-FC24-27E8-04DE-592CD91EDB2A}|AdminTaskSystem.csproj|c:\\users\\denis\\documents\\github\\diplompr\\admintasksystem\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CA0D07FA-FC24-27E8-04DE-592CD91EDB2A}|AdminTaskSystem.csproj|solutionrelative:viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA0D07FA-FC24-27E8-04DE-592CD91EDB2A}|AdminTaskSystem.csproj|d:\\admintasksystem\\services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CA0D07FA-FC24-27E8-04DE-592CD91EDB2A}|AdminTaskSystem.csproj|c:\\users\\denis\\documents\\github\\diplompr\\admintasksystem\\services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CA0D07FA-FC24-27E8-04DE-592CD91EDB2A}|AdminTaskSystem.csproj|solutionrelative:services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA0D07FA-FC24-27E8-04DE-592CD91EDB2A}|AdminTaskSystem.csproj|d:\\admintasksystem\\services\\supabaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CA0D07FA-FC24-27E8-04DE-592CD91EDB2A}|AdminTaskSystem.csproj|c:\\users\\denis\\documents\\github\\diplompr\\admintasksystem\\services\\supabaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CA0D07FA-FC24-27E8-04DE-592CD91EDB2A}|AdminTaskSystem.csproj|solutionrelative:services\\supabaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -58,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -74,11 +78,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
+              "Title": "ProfileView.xaml",
+              "DocumentMoniker": "C:\\Users\\denis\\Documents\\GitHub\\DiplomPR\\AdminTaskSystem\\Views\\ProfileView.xaml",
+              "RelativeDocumentMoniker": "Views\\ProfileView.xaml",
+              "ToolTip": "C:\\Users\\denis\\Documents\\GitHub\\DiplomPR\\AdminTaskSystem\\Views\\ProfileView.xaml",
+              "RelativeToolTip": "Views\\ProfileView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-19T05:04:02.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "EmployeeService.cs",
-              "DocumentMoniker": "D:\\AdminTaskSystem\\Services\\EmployeeService.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\Documents\\GitHub\\DiplomPR\\AdminTaskSystem\\Services\\EmployeeService.cs",
               "RelativeDocumentMoniker": "Services\\EmployeeService.cs",
-              "ToolTip": "D:\\AdminTaskSystem\\Services\\EmployeeService.cs",
+              "ToolTip": "C:\\Users\\denis\\Documents\\GitHub\\DiplomPR\\AdminTaskSystem\\Services\\EmployeeService.cs",
               "RelativeToolTip": "Services\\EmployeeService.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAgwCQAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -86,11 +102,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "ReportsViewModel.cs",
-              "DocumentMoniker": "D:\\AdminTaskSystem\\ViewModels\\ReportsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\Documents\\GitHub\\DiplomPR\\AdminTaskSystem\\ViewModels\\ReportsViewModel.cs",
               "RelativeDocumentMoniker": "ViewModels\\ReportsViewModel.cs",
-              "ToolTip": "D:\\AdminTaskSystem\\ViewModels\\ReportsViewModel.cs",
+              "ToolTip": "C:\\Users\\denis\\Documents\\GitHub\\DiplomPR\\AdminTaskSystem\\ViewModels\\ReportsViewModel.cs",
               "RelativeToolTip": "ViewModels\\ReportsViewModel.cs",
               "ViewState": "AgIAACwAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -98,11 +114,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "MainViewModel.cs",
-              "DocumentMoniker": "D:\\AdminTaskSystem\\ViewModels\\MainViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\Documents\\GitHub\\DiplomPR\\AdminTaskSystem\\ViewModels\\MainViewModel.cs",
               "RelativeDocumentMoniker": "ViewModels\\MainViewModel.cs",
-              "ToolTip": "D:\\AdminTaskSystem\\ViewModels\\MainViewModel.cs",
+              "ToolTip": "C:\\Users\\denis\\Documents\\GitHub\\DiplomPR\\AdminTaskSystem\\ViewModels\\MainViewModel.cs",
               "RelativeToolTip": "ViewModels\\MainViewModel.cs",
               "ViewState": "AgIAABkAAAAAAAAAAAA0wAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -110,11 +126,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\AdminTaskSystem\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\denis\\Documents\\GitHub\\DiplomPR\\AdminTaskSystem\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "D:\\AdminTaskSystem\\appsettings.json",
+              "ToolTip": "C:\\Users\\denis\\Documents\\GitHub\\DiplomPR\\AdminTaskSystem\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -122,11 +138,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "AuthService.cs",
-              "DocumentMoniker": "D:\\AdminTaskSystem\\Services\\AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\Documents\\GitHub\\DiplomPR\\AdminTaskSystem\\Services\\AuthService.cs",
               "RelativeDocumentMoniker": "Services\\AuthService.cs",
-              "ToolTip": "D:\\AdminTaskSystem\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\denis\\Documents\\GitHub\\DiplomPR\\AdminTaskSystem\\Services\\AuthService.cs",
               "RelativeToolTip": "Services\\AuthService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -134,11 +150,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "LoginViewModel.cs",
-              "DocumentMoniker": "D:\\AdminTaskSystem\\ViewModels\\LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\Documents\\GitHub\\DiplomPR\\AdminTaskSystem\\ViewModels\\LoginViewModel.cs",
               "RelativeDocumentMoniker": "ViewModels\\LoginViewModel.cs",
-              "ToolTip": "D:\\AdminTaskSystem\\ViewModels\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\denis\\Documents\\GitHub\\DiplomPR\\AdminTaskSystem\\ViewModels\\LoginViewModel.cs",
               "RelativeToolTip": "ViewModels\\LoginViewModel.cs",
               "ViewState": "AgIAADAAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -146,11 +162,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "TaskService.cs",
-              "DocumentMoniker": "D:\\AdminTaskSystem\\Services\\TaskService.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\Documents\\GitHub\\DiplomPR\\AdminTaskSystem\\Services\\TaskService.cs",
               "RelativeDocumentMoniker": "Services\\TaskService.cs",
-              "ToolTip": "D:\\AdminTaskSystem\\Services\\TaskService.cs",
+              "ToolTip": "C:\\Users\\denis\\Documents\\GitHub\\DiplomPR\\AdminTaskSystem\\Services\\TaskService.cs",
               "RelativeToolTip": "Services\\TaskService.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -158,11 +174,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "LoginWindow.xaml",
-              "DocumentMoniker": "D:\\AdminTaskSystem\\Views\\LoginWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\denis\\Documents\\GitHub\\DiplomPR\\AdminTaskSystem\\Views\\LoginWindow.xaml",
               "RelativeDocumentMoniker": "Views\\LoginWindow.xaml",
-              "ToolTip": "D:\\AdminTaskSystem\\Views\\LoginWindow.xaml",
+              "ToolTip": "C:\\Users\\denis\\Documents\\GitHub\\DiplomPR\\AdminTaskSystem\\Views\\LoginWindow.xaml",
               "RelativeToolTip": "Views\\LoginWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-05-02T08:32:56.786Z",
@@ -170,11 +186,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Employee.cs",
-              "DocumentMoniker": "D:\\AdminTaskSystem\\Models\\Employee.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\Documents\\GitHub\\DiplomPR\\AdminTaskSystem\\Models\\Employee.cs",
               "RelativeDocumentMoniker": "Models\\Employee.cs",
-              "ToolTip": "D:\\AdminTaskSystem\\Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\denis\\Documents\\GitHub\\DiplomPR\\AdminTaskSystem\\Models\\Employee.cs",
               "RelativeToolTip": "Models\\Employee.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAA5wAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -182,11 +198,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "CacheService.cs",
-              "DocumentMoniker": "D:\\AdminTaskSystem\\Services\\CacheService.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\Documents\\GitHub\\DiplomPR\\AdminTaskSystem\\Services\\CacheService.cs",
               "RelativeDocumentMoniker": "Services\\CacheService.cs",
-              "ToolTip": "D:\\AdminTaskSystem\\Services\\CacheService.cs",
+              "ToolTip": "C:\\Users\\denis\\Documents\\GitHub\\DiplomPR\\AdminTaskSystem\\Services\\CacheService.cs",
               "RelativeToolTip": "Services\\CacheService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -194,11 +210,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "EmployeeStats.cs",
-              "DocumentMoniker": "D:\\AdminTaskSystem\\Models\\EmployeeStats.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\Documents\\GitHub\\DiplomPR\\AdminTaskSystem\\Models\\EmployeeStats.cs",
               "RelativeDocumentMoniker": "Models\\EmployeeStats.cs",
-              "ToolTip": "D:\\AdminTaskSystem\\Models\\EmployeeStats.cs",
+              "ToolTip": "C:\\Users\\denis\\Documents\\GitHub\\DiplomPR\\AdminTaskSystem\\Models\\EmployeeStats.cs",
               "RelativeToolTip": "Models\\EmployeeStats.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -206,11 +222,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "SupabaseService.cs",
-              "DocumentMoniker": "D:\\AdminTaskSystem\\Services\\SupabaseService.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\Documents\\GitHub\\DiplomPR\\AdminTaskSystem\\Services\\SupabaseService.cs",
               "RelativeDocumentMoniker": "Services\\SupabaseService.cs",
-              "ToolTip": "D:\\AdminTaskSystem\\Services\\SupabaseService.cs",
+              "ToolTip": "C:\\Users\\denis\\Documents\\GitHub\\DiplomPR\\AdminTaskSystem\\Services\\SupabaseService.cs",
               "RelativeToolTip": "Services\\SupabaseService.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAA5wAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

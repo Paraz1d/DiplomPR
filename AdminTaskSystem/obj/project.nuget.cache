@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Q02S9w51gb0=",
+  "dgSpecHash": "iSYFz1ghaVw=",
   "success": true,
-  "projectFilePath": "D:\\AdminTaskSystem\\AdminTaskSystem.csproj",
+  "projectFilePath": "C:\\Users\\denis\\Documents\\GitHub\\DiplomPR\\AdminTaskSystem\\AdminTaskSystem.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\denis\\.nuget\\packages\\closedxml\\0.104.2\\closedxml.0.104.2.nupkg.sha512",
     "C:\\Users\\denis\\.nuget\\packages\\closedxml.parser\\1.2.0\\closedxml.parser.1.2.0.nupkg.sha512",
