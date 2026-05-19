@@ -176,15 +176,6 @@
                             </StackPanel>
                         </RadioButton>
 
-                        <RadioButton IsChecked="{Binding IsTasksSelected}"
-                                     Command="{Binding NavigateToTasksCommand}"
-                                     Style="{StaticResource SidebarNavItemStyle}">
-                            <StackPanel Orientation="Horizontal">
-                                <materialDesign:PackIcon Kind="CheckboxMarkedCircleOutline" Width="21" Height="21" Margin="0,0,12,0" />
-                                <TextBlock Text="Мои задачи" Foreground="{Binding Foreground, RelativeSource={RelativeSource AncestorType=RadioButton}}" />
-                            </StackPanel>
-                        </RadioButton>
-
                         <Separator Margin="18,14" Background="{StaticResource SidebarBorderCBrush}" />
 
                         <TextBlock Text="УПРАВЛЕНИЕ"

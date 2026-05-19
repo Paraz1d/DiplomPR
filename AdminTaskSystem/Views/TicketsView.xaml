@@ -24,17 +24,6 @@
                         <TextBlock Text="Экспорт" />
                     </StackPanel>
                 </Button>
-                <Button Command="{Binding CreateTicketCommand}"
-                        Style="{StaticResource MaterialDesignRaisedButton}"
-                        Background="{StaticResource AccentBlueBrush}"
-                        Foreground="White"
-                        Padding="14,8"
-                        Visibility="{Binding CanManage, Converter={StaticResource BoolToVisibilityConverter}}">
-                    <StackPanel Orientation="Horizontal">
-                        <materialDesign:PackIcon Kind="Plus" Width="18" Height="18" Margin="0,0,7,0" />
-                        <TextBlock Text="Новая заявка" Foreground="White" />
-                    </StackPanel>
-                </Button>
             </StackPanel>
         </DockPanel>
 

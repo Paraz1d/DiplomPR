@@ -6,13 +6,7 @@
         <materialDesign:Snackbar DockPanel.Dock="Bottom" MessageQueue="{Binding MessageQueue}" />
 
         <DockPanel DockPanel.Dock="Top" Margin="0,0,0,12">
-            <TextBlock Text="Мои задачи" FontSize="16" FontWeight="Medium" />
-            <Button DockPanel.Dock="Right"
-                    Content="Новая задача"
-                    Command="{Binding CreateTaskCommand}"
-                    Background="{StaticResource AccentBlueBrush}"
-                    Foreground="White"
-                    Visibility="{Binding CanManage, Converter={StaticResource BoolToVisibilityConverter}}" />
+            <TextBlock Text="Задачи моего отдела" FontSize="16" FontWeight="Medium" />
         </DockPanel>
 
         <Border DockPanel.Dock="Top"
